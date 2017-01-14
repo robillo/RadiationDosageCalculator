@@ -65,7 +65,9 @@ public class MainActivity extends AppCompatActivity {
         mPager = (ViewPager) findViewById(R.id.pager);
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
-        mPager.setPageTransformer(true, new DepthPageTransformer());
+        mPager.setClipToPadding(false);
+        mPager.setPageMargin(32);
+        mPager.setPageTransformer(true, new ZoomOutPageTransformer());
     }
 
     @Override
@@ -94,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
+        //nonspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
@@ -126,6 +128,16 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             return NUM_PAGES;
+        }
+
+        @Override
+        public Object instantiateItem(ViewGroup container, int position) {
+            return super.instantiateItem(container, position);
+        }
+
+        @Override
+        public float getPageWidth(int position) {
+            return 0.8f;
         }
     }
 
