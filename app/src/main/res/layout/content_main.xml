@@ -21,4 +21,8 @@
         android:paddingLeft="20sp"
         android:paddingRight="20sp"/>
 
+    <include android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/include"/>
+
 </RelativeLayout>
