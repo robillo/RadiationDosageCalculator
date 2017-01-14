@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public float getPageWidth(int position) {
-            return 0.9f;
+            return 1.0f;
         }
     }
 

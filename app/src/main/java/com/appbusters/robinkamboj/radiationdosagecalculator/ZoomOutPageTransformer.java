@@ -9,7 +9,7 @@ import android.view.View;
 
 public class ZoomOutPageTransformer implements ViewPager.PageTransformer {
     private static final float MIN_SCALE = 0.85f;
-    private static final float MIN_ALPHA = 0.5f;
+    private static final float MIN_ALPHA = 0.8f;
 
     public void transformPage(View view, float position) {
         int pageWidth = view.getWidth();
@@ -17,7 +17,7 @@ public class ZoomOutPageTransformer implements ViewPager.PageTransformer {
 
         if (position < -1) { // [-Infinity,-1)
             // This page is way off-screen to the left.
-            view.setAlpha(0);
+            //view.setAlpha(0);
 
         } else if (position <= 1) { // [-1,1]
             // Modify the default slide transition to shrink the page as well
