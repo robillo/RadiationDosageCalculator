@@ -5,12 +5,15 @@
     <color name="colorPrimaryLight">#FF206F</color>
     <color name="colorPrimaryLightLight">#FF206F</color>
     <color name="colorAccent">#00B20F</color>
+    <color name="colorBlackShade">#474747</color>
+    <color name="colorBlackShade2">#7F7F7F</color>
+    <color name="colorBlackShade3">#CCCBCA</color>
 
     <!-- Screens background color-->
-    <color name="bg_screen1">#f64c73</color>
-    <color name="bg_screen2">#20d2bb</color>
-    <color name="bg_screen3">#3395ff</color>
-    <color name="bg_screen4">#c873f4</color>
+    <color name="bg_screen1">#CC0048</color>
+    <color name="bg_screen2">#7F1138</color>
+    <color name="bg_screen3">#FF206F</color>
+    <color name="bg_screen4">#CC006F</color>
 
     <!-- dots inactive colors -->
     <color name="dot_dark_screen1">#d1395c</color>
