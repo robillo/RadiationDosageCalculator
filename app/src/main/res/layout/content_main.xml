@@ -8,13 +8,16 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.appbusters.robinkamboj.radiationdosagecalculator.MainActivity"
     tools:showIn="@layout/activity_main"
-    android:background="@color/colorBlackShade2">
+    android:background="@color/colorBlackShade">
 
     <android.support.v4.view.ViewPager
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="15sp"/>
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginBottom="60sp"/>
 
 </RelativeLayout>
