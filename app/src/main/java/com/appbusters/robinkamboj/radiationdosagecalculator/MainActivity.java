@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
         mPager.setClipToPadding(false);
-        mPager.setPageMargin(32);
         mPager.setPageTransformer(true, new ZoomOutPageTransformer());
     }
 
@@ -137,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public float getPageWidth(int position) {
-            return 0.8f;
+            return 0.9f;
         }
     }
 
