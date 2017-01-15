@@ -32,11 +32,11 @@ public class Slide5Fragment extends Fragment {
 
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
         Glide.with(getContext())
-                .load("https://3.bp.blogspot.com/-QT1mOHf8qQg/WDDBacKnM1I/AAAAAAAAAIo/kwjDcLOnY1kzCZwB_MLJHYzY3nLwuv3fQCK4B/s400/Self-Driving-Car-867x450.jpg")
+                .load("http://www.walldevil.com/wallpapers/a54/radiation-creature-mask.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .placeholder(R.drawable.placeholder)
                 .crossFade()
-                .fitCenter()
+                .centerCrop()
                 .into(imageView1);
 
         return v;

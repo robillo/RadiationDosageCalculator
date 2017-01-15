@@ -33,11 +33,11 @@ public class Slide4Fragment extends Fragment {
 
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
         Glide.with(getActivity())
-                .load("https://3.bp.blogspot.com/-QT1mOHf8qQg/WDDBacKnM1I/AAAAAAAAAIo/kwjDcLOnY1kzCZwB_MLJHYzY3nLwuv3fQCK4B/s400/Self-Driving-Car-867x450.jpg")
+                .load("http://img15.deviantart.net/9edc/i/2010/012/c/9/recovery_ur_heart___wallpaper_by_bigli_migli.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .placeholder(R.drawable.placeholder)
                 .crossFade()
-                .fitCenter()
+                .centerCrop()
                 .into(imageView1);
 
         return v;
