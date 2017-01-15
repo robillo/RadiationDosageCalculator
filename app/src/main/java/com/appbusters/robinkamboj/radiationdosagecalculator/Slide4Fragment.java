@@ -33,7 +33,7 @@ public class Slide4Fragment extends Fragment {
 
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
         Glide.with(getActivity())
-                .load("http://img15.deviantart.net/9edc/i/2010/012/c/9/recovery_ur_heart___wallpaper_by_bigli_migli.jpg")
+                .load("http://www.healthywealthywonderful.com/wp-content/uploads/2014/12/HWW-Slide6.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .placeholder(R.drawable.placeholder)
                 .crossFade()

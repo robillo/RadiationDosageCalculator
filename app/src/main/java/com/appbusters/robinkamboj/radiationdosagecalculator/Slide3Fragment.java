@@ -32,7 +32,7 @@ public class Slide3Fragment extends Fragment {
 
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
         Glide.with(getActivity().getApplicationContext())
-                .load("http://hd.wallpaperswide.com/thumbs/safe_deposit_box_2-t2.jpg")
+                .load("http://www.imgbase.info/images/safe-wallpapers/tv_movies/tron/14759_tron.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .placeholder(R.drawable.placeholder)
                 .crossFade()
