@@ -17,24 +17,25 @@
         android:layout_height="0sp"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:background="@color/bg_screen2">
+        android:background="@color/colorPrimary">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Radiation Dosage Calculator"
+            android:text="@string/slide_2_title"
             android:textSize="25sp"
             android:textColor="#FFF"
             android:layout_margin="4sp"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:fontFamily="sans-serif-smallcaps"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ever wondered if you live in a radiation-safe zone? Its time to find out!"
+            android:text="@string/slide_2_desc"
             android:textSize="20sp"
             android:gravity="center"
             android:layout_margin="4sp"
             android:textColor="#FFF"
-            android:fontFamily="casual"/>
+            android:fontFamily="sans-serif-smallcaps"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
