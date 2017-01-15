@@ -31,7 +31,7 @@ public class Slide3Fragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_slide3, container, false);
 
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
-        Glide.with(getActivity())
+        Glide.with(getActivity().getApplicationContext())
                 .load("https://3.bp.blogspot.com/-QT1mOHf8qQg/WDDBacKnM1I/AAAAAAAAAIo/kwjDcLOnY1kzCZwB_MLJHYzY3nLwuv3fQCK4B/s400/Self-Driving-Car-867x450.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .placeholder(R.drawable.placeholder)
