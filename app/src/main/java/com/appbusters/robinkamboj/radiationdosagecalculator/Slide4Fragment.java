@@ -6,6 +6,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 
 /**
@@ -13,6 +17,7 @@ import android.view.ViewGroup;
  */
 public class Slide4Fragment extends Fragment {
 
+    ImageView imageView1;
 
     public Slide4Fragment() {
         // Required empty public constructor
@@ -22,8 +27,20 @@ public class Slide4Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_slide4, container, false);
+        View v = inflater.inflate(R.layout.fragment_slide4, container, false);
+
+        imageView1 = (ImageView) v.findViewById(R.id.imageView1);
+        Glide.with(getActivity())
+                .load("https://3.bp.blogspot.com/-QT1mOHf8qQg/WDDBacKnM1I/AAAAAAAAAIo/kwjDcLOnY1kzCZwB_MLJHYzY3nLwuv3fQCK4B/s400/Self-Driving-Car-867x450.jpg")
+                .diskCacheStrategy(DiskCacheStrategy.ALL)
+                .placeholder(R.drawable.placeholder)
+                .crossFade()
+                .fitCenter()
+                .into(imageView1);
+
+        return v;
     }
 
 }
