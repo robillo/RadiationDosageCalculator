@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 
 /**
@@ -31,10 +32,9 @@ public class SlideFragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_slide, container, false);
 
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
-        Glide.with(this)
-                .load("https://cdn.gamerant.com/wp-content/uploads/Batman-Arkham-City-Robin-Combat-Gadgets.jpg")
-                .placeholder(R.drawable.number)
-                .crossFade()
+        Glide.with(getActivity())
+                .load("https://3.bp.blogspot.com/-QT1mOHf8qQg/WDDBacKnM1I/AAAAAAAAAIo/kwjDcLOnY1kzCZwB_MLJHYzY3nLwuv3fQCK4B/s400/Self-Driving-Car-867x450.jpg")
+                .diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.number)
                 .centerCrop()
                 .into(imageView1);
 

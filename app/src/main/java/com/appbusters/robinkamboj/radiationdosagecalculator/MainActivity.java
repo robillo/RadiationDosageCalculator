@@ -122,24 +122,25 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
             switch (position){
-                case 1:{
+                case 0:{
                     return new SlideFragment();
+                }
+                case 1:{
+                    return new Slide2Fragment();
                 }
                 case 2:{
-                    return new SlideFragment();
+                    return new Slide3Fragment();
                 }
                 case 3:{
-                    return new SlideFragment();
+                    return new Slide4Fragment();
                 }
                 case 4:{
-                    return new SlideFragment();
+                    return new Slide5Fragment();
                 }
-                case 5:{
+                default:{
                     return new SlideFragment();
                 }
             }
-
-            return new SlideFragment();
         }
 
         @Override
