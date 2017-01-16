@@ -27,6 +27,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    private LinearLayout dotsLayout;
+    private TextView[] dots;
+    private int[] layouts;
     /**
      * The number of pages (wizard steps) to show in this demo.
      */
@@ -63,6 +67,17 @@ public class MainActivity extends AppCompatActivity {
 
         // Instantiate a ViewPager and a PagerAdapter.
         mPager = (ViewPager) findViewById(R.id.pager);
+        dotsLayout = (LinearLayout) findViewById(R.id.layoutDots);
+
+        // layouts of all welcome sliders
+        // add few more layouts if you want
+        layouts = new int[]{
+                R.layout.fragment_slide,
+                R.layout.fragment_slide2,
+                R.layout.fragment_slide3,
+                R.layout.fragment_slide4,
+                R.layout.fragment_slide5};
+
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
         mPager.setClipToPadding(false);
