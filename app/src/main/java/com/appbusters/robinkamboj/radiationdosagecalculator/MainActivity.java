@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 R.layout.fragment_slide5};
 
         // adding bottom dots
-        addBottomDots(0);
+        //addBottomDots(0);
 
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         mPager.setPageTransformer(true, new ZoomOutPageTransformer());
     }
 
-    private void addBottomDots(int currentPage) {
+    /*private void addBottomDots(int currentPage) {
         dots = new TextView[layouts.length];
 
         int[] colorsActive = getResources().getIntArray(R.array.array_dot_active);
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (dots.length > 0)
             dots[currentPage].setTextColor(colorsActive[currentPage]);
-    }
+    }*/
 
 
     @Override
