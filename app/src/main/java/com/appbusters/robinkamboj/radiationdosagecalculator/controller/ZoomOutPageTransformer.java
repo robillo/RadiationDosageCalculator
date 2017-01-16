@@ -1,4 +1,4 @@
-package com.appbusters.robinkamboj.radiationdosagecalculator;
+package com.appbusters.robinkamboj.radiationdosagecalculator.controller;
 
 import android.support.v4.view.ViewPager;
 import android.view.View;

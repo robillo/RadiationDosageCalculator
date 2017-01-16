@@ -1,4 +1,4 @@
-package com.appbusters.robinkamboj.radiationdosagecalculator;
+package com.appbusters.robinkamboj.radiationdosagecalculator.view;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,6 +17,9 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.appbusters.robinkamboj.radiationdosagecalculator.controller.PrefManager;
+import com.appbusters.robinkamboj.radiationdosagecalculator.R;
 
 public class WelcomeActivity extends AppCompatActivity {
 

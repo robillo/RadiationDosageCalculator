@@ -1,4 +1,4 @@
-package com.appbusters.robinkamboj.radiationdosagecalculator;
+package com.appbusters.robinkamboj.radiationdosagecalculator.view;
 
 
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.appbusters.robinkamboj.radiationdosagecalculator.R;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
@@ -15,11 +16,11 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Slide2Fragment extends Fragment {
+public class Slide5Fragment extends Fragment {
 
     ImageView imageView1;
 
-    public Slide2Fragment() {
+    public Slide5Fragment() {
         // Required empty public constructor
     }
 
@@ -28,11 +29,11 @@ public class Slide2Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_slide2, container, false);
+        View v = inflater.inflate(R.layout.fragment_slide5, container, false);
 
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
-        Glide.with(getActivity())
-                .load("http://wallpapercave.com/wp/Ai75Vfz.jpg")
+        Glide.with(getContext())
+                .load("http://www.walldevil.com/wallpapers/a54/radiation-creature-mask.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .placeholder(R.drawable.placeholder)
                 .crossFade()

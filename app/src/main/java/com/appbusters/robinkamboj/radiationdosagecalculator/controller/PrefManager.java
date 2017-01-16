@@ -1,4 +1,4 @@
-package com.appbusters.robinkamboj.radiationdosagecalculator;
+package com.appbusters.robinkamboj.radiationdosagecalculator.controller;
 
 
 
