@@ -82,15 +82,16 @@ public class MainActivity extends AppCompatActivity {
                 R.layout.fragment_slide5};
 
         // adding bottom dots
-        //addBottomDots(0);
+        addBottomDots(0);
 
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
         mPager.setClipToPadding(false);
         mPager.setPageTransformer(true, new ZoomOutPageTransformer());
+        mPager.addOnPageChangeListener(viewPagerPageChangeListener);
     }
 
-    /*private void addBottomDots(int currentPage) {
+    private void addBottomDots(int currentPage) {
         dots = new TextView[layouts.length];
 
         int[] colorsActive = getResources().getIntArray(R.array.array_dot_active);
@@ -107,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (dots.length > 0)
             dots[currentPage].setTextColor(colorsActive[currentPage]);
-    }*/
+    }
 
 
     @Override
@@ -202,5 +203,35 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+    //  viewpager change listener
+    ViewPager.OnPageChangeListener viewPagerPageChangeListener = new ViewPager.OnPageChangeListener() {
+
+        @Override
+        public void onPageSelected(int position) {
+            addBottomDots(position);
+
+            // changing the next button text 'NEXT' / 'GOT IT'
+            if (position == layouts.length - 1) {
+                // last page. make button text to GOT IT
+                //btnNext.setText(getString(R.string.start));
+                //btnSkip.setVisibility(View.GONE);
+            } else {
+                // still pages are left
+                //btnNext.setText(getString(R.string.next));
+                //btnSkip.setVisibility(View.VISIBLE);
+            }
+        }
+
+        @Override
+        public void onPageScrolled(int arg0, float arg1, int arg2) {
+
+        }
+
+        @Override
+        public void onPageScrollStateChanged(int arg0) {
+
+        }
+    };
 
 }
