@@ -21,7 +21,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="More"
+            android:text="@string/slide_5_title"
             android:textSize="25sp"
             android:textColor="#FFF"
             android:layout_margin="4sp"
@@ -30,7 +30,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="The context of the app not enough for you? Here's more!"
+            android:text="@string/slide_5_desc"
             android:textSize="20sp"
             android:gravity="center"
             android:layout_margin="4sp"
@@ -39,7 +39,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Here's More!"
+            android:text="@string/slide_5_button"
             android:textSize="20sp"
             android:textColor="#FFF"
             android:background="?attr/selectableItemBackground"/>
