@@ -14,6 +14,7 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Menu;
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private LinearLayout dotsLayout;
     private TextView[] dots;
     private int[] layouts;
+    private Button btnSkip, btnNext;
     /**
      * The number of pages (wizard steps) to show in this demo.
      */
@@ -68,7 +70,8 @@ public class MainActivity extends AppCompatActivity {
         // Instantiate a ViewPager and a PagerAdapter.
         mPager = (ViewPager) findViewById(R.id.pager);
         dotsLayout = (LinearLayout) findViewById(R.id.layoutDots);
-
+        btnSkip = (Button) findViewById(R.id.btn_skip);
+        btnNext = (Button) findViewById(R.id.btn_next);
         // layouts of all welcome sliders
         // add few more layouts if you want
         layouts = new int[]{
@@ -78,11 +81,34 @@ public class MainActivity extends AppCompatActivity {
                 R.layout.fragment_slide4,
                 R.layout.fragment_slide5};
 
+        // adding bottom dots
+        addBottomDots(0);
+
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
         mPager.setClipToPadding(false);
         mPager.setPageTransformer(true, new ZoomOutPageTransformer());
     }
+
+    private void addBottomDots(int currentPage) {
+        dots = new TextView[layouts.length];
+
+        int[] colorsActive = getResources().getIntArray(R.array.array_dot_active);
+        int[] colorsInactive = getResources().getIntArray(R.array.array_dot_inactive);
+
+        dotsLayout.removeAllViews();
+        for (int i = 0; i < dots.length; i++) {
+            dots[i] = new TextView(this);
+            dots[i].setText(Html.fromHtml("&#8226;"));
+            dots[i].setTextSize(35);
+            dots[i].setTextColor(colorsInactive[currentPage]);
+            dotsLayout.addView(dots[i]);
+        }
+
+        if (dots.length > 0)
+            dots[currentPage].setTextColor(colorsActive[currentPage]);
+    }
+
 
     @Override
     public void onBackPressed() {
@@ -134,6 +160,8 @@ public class MainActivity extends AppCompatActivity {
             super(fm);
         }
 
+        private LayoutInflater layoutInflater;
+
         @Override
         public Fragment getItem(int position) {
             switch (position){
@@ -172,6 +200,7 @@ public class MainActivity extends AppCompatActivity {
         public float getPageWidth(int position) {
             return 1.0f;
         }
+
     }
 
 }
