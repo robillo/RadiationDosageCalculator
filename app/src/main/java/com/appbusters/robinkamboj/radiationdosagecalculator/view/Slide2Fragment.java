@@ -35,7 +35,6 @@ public class Slide2Fragment extends Fragment {
         Glide.with(getActivity())
                 .load("http://wallpapercave.com/wp/Ai75Vfz.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .placeholder(R.drawable.placeholder)
                 .crossFade()
                 .centerCrop()
                 .into(imageView1);

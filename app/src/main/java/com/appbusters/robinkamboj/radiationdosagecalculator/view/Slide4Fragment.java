@@ -36,7 +36,6 @@ public class Slide4Fragment extends Fragment {
         Glide.with(getActivity())
                 .load("http://www.healthywealthywonderful.com/wp-content/uploads/2014/12/HWW-Slide6.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .placeholder(R.drawable.placeholder)
                 .crossFade()
                 .centerCrop()
                 .into(imageView1);

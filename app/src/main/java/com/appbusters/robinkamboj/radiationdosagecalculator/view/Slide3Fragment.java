@@ -35,7 +35,6 @@ public class Slide3Fragment extends Fragment {
         Glide.with(getActivity().getApplicationContext())
                 .load("http://img08.deviantart.net/1648/i/2014/006/e/9/radiation_wallpaper_by_mkovic-d7165ms.png")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .placeholder(R.drawable.placeholder)
                 .crossFade()
                 .centerCrop()
                 .into(imageView1);

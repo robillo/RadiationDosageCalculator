@@ -35,7 +35,6 @@ public class Slide5Fragment extends Fragment {
         Glide.with(getContext())
                 .load("http://www.walldevil.com/wallpapers/a54/radiation-creature-mask.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .placeholder(R.drawable.placeholder)
                 .crossFade()
                 .centerCrop()
                 .into(imageView1);
