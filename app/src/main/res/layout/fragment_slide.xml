@@ -47,8 +47,7 @@
                     android:textSize="20sp"
                     android:textColor="#FFF"
                     android:background="?attr/selectableItemBackground"
-                    android:id="@+id/calculate"
-                    android:onClick="onClick"/>
+                    android:id="@+id/calculate"/>
             </LinearLayout>
         </LinearLayout>
     </android.support.v7.widget.CardView>
