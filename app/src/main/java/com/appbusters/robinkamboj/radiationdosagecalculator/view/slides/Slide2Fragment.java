@@ -1,4 +1,4 @@
-package com.appbusters.robinkamboj.radiationdosagecalculator.view;
+package com.appbusters.robinkamboj.radiationdosagecalculator.view.slides;
 
 
 import android.os.Bundle;
@@ -16,11 +16,11 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Slide4Fragment extends Fragment {
+public class Slide2Fragment extends Fragment {
 
     ImageView imageView1;
 
-    public Slide4Fragment() {
+    public Slide2Fragment() {
         // Required empty public constructor
     }
 
@@ -28,13 +28,12 @@ public class Slide4Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_slide4, container, false);
+        View v = inflater.inflate(R.layout.fragment_slide2, container, false);
 
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
         Glide.with(getActivity())
-                .load("http://www.healthywealthywonderful.com/wp-content/uploads/2014/12/HWW-Slide6.jpg")
+                .load("http://wallpapercave.com/wp/Ai75Vfz.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .crossFade()
                 .centerCrop()

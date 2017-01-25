@@ -19,6 +19,11 @@ import android.widget.TextView;
 
 import com.appbusters.robinkamboj.radiationdosagecalculator.R;
 import com.appbusters.robinkamboj.radiationdosagecalculator.controller.ZoomOutPageTransformer;
+import com.appbusters.robinkamboj.radiationdosagecalculator.view.slides.Slide2Fragment;
+import com.appbusters.robinkamboj.radiationdosagecalculator.view.slides.Slide3Fragment;
+import com.appbusters.robinkamboj.radiationdosagecalculator.view.slides.Slide4Fragment;
+import com.appbusters.robinkamboj.radiationdosagecalculator.view.slides.Slide5Fragment;
+import com.appbusters.robinkamboj.radiationdosagecalculator.view.slides.SlideFragment;
 
 public class MainActivity extends AppCompatActivity {
 

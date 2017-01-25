@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.appbusters.robinkamboj.radiationdosagecalculator">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.WelcomeActivity"
+        <activity
+            android:name=".view.WelcomeActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +22,12 @@
         <activity
             android:name=".view.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".view.CalculateActivity" />
+        <activity android:name=".view.MythActivity" />
+        <activity android:name=".view.PrecautionsActivity" />
+        <activity android:name=".view.RecoveryActivity" />
+        <activity android:name=".view.MoreActivity"></activity>
     </application>
 
 </manifest>
