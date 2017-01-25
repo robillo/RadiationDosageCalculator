@@ -37,7 +37,7 @@ public class Slide4Fragment extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_slide4, container, false);
 
-        button = (Button) v.findViewById(R.id.more);
+        button = (Button) v.findViewById(R.id.recovery);
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
         Glide.with(getActivity())
                 .load("http://www.healthywealthywonderful.com/wp-content/uploads/2014/12/HWW-Slide6.jpg")

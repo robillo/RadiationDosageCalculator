@@ -36,7 +36,7 @@ public class Slide5Fragment extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_slide5, container, false);
 
-        button = (Button) v.findViewById(R.id.recovery);
+        button = (Button) v.findViewById(R.id.more);
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
         Glide.with(getContext())
                 .load("http://www.walldevil.com/wallpapers/a54/radiation-creature-mask.jpg")
