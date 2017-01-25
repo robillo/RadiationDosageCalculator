@@ -46,7 +46,9 @@
                     android:text="@string/slide_1_button"
                     android:textSize="20sp"
                     android:textColor="#FFF"
-                    android:background="?attr/selectableItemBackground"/>
+                    android:background="?attr/selectableItemBackground"
+                    android:id="@+id/calculate"
+                    android:onClick="onClick"/>
             </LinearLayout>
         </LinearLayout>
     </android.support.v7.widget.CardView>
