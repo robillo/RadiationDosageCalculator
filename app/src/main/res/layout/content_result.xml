@@ -1,12 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/content_result"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.appbusters.robinkamboj.radiationdosagecalculator.view.ResultActivity"
     tools:showIn="@layout/activity_result">
 
-</RelativeLayout>
+    <com.androidplot.xy.XYPlot
+        android:layout_marginTop="3sp"
+        style="@style/APDefacto.Light"
+        android:id="@+id/plot"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        app:title="Radiation"
+        app:gridInsetLeft="35dp"
+        app:gridInsetRight="10dp"
+        app:gridClippingEnabled="false"
+        android:layout_marginBottom="?attr/actionBarSize"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spRenderStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spSeriesSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spWidthStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:id="@+id/sectionGraph"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:max="300"
+                android:progress="10"
+                android:id="@+id/sbFixed"/>
+
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:max="50"
+                android:progress="1"
+                android:id="@+id/sbVariable"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/s1CheckBox"
+            android:text="Man-Made Sources"
+            android:checked="true"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"/>
+
+        <CheckBox
+            android:id="@+id/s2CheckBox"
+            android:text="Natural Sources"
+            android:checked="true"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"/>
+    </LinearLayout>
+
+</LinearLayout>
