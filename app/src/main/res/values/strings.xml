@@ -44,48 +44,49 @@
 
 
     <string-array name="myths_headers">
-    <item>Most of the radiation received is due to nuclear reactors</item>
-    <item>Nuclear reactors can explode like a bomb</item>
-    <item>Nuclear energy is not clean</item>
-    <item> Nuclear waste is hazardous and stays harmful for tens of thousands of years</item>
-    <item> Nuclear energy is not safe </item>
-    <item> Nuclear waste cannot be safely transported</item>
-    <item>Natural radiation won’t hurt you, but human-made radiation will</item>
-    <item>Your food becomes radioactive if it is irradiated</item>
-    <item>You should go to your doctor and ask for a whole-body CT (computerized tomography or CAT) scan so you can find out if you have cancer or not</item>
-    <item>Nuclear energy can’t reduce our dependence on foreign oil</item>
+        <item>Most of the radiation received is due to nuclear reactors</item>
+        <item>Nuclear reactors can explode like a bomb</item>
+        <item>Nuclear energy is not clean</item>
+        <item> Nuclear waste is hazardous and stays harmful for tens of thousands of years</item>
+        <item> Nuclear energy is not safe </item>
+        <item> Nuclear waste cannot be safely transported</item>
+        <item>Natural radiation won’t hurt you, but human-made radiation will</item>
+        <item>Your food becomes radioactive if it is irradiated</item>
+        <item>You should go to your doctor and ask for a whole-body CT (computerized tomography or CAT) scan so you can find out if you have cancer or not</item>
+        <item>Nuclear energy can’t reduce our dependence on foreign oil</item>
     </string-array>
 
     <string-array name="myths">
-    <item>1.\tIn truth we are surrounded by naturally occurring radiation. Radiation arising from human activities typically accounts for up to 20%% of the public\'s exposure every year as global average. Naturally occurring radiation sums up to 82%% of the total radiation received by a Human.</item>
-    <item>2.\tThis is practically impossible because highly enriched nuclear substances are kept in specific ratios in a nuclear bomb neither of which is present in a nuclear reactor.</item>
-    <item>3.\tNuclear reactors are one of the cleanest sources of energy. It does not emit any byproduct gases or any carbon. Interestingly 63.3%% of the total non-renewable energy produced was obtained through nuclear power plants.</item>
-    <item>4.\tNuclear fuel can be recycled to make new fuel and byproducts. Most of the waste from this process require a time of storage of less than 300 years.</item>
-    <item>5.\tNuclear energy is the safest form of energy. In India there has been no injuries or deaths in the entire history of commercial Nuclear power. Infact a stusy proves that it is safer to work in a nuclear reactor than in office</item>
-    <item>6.\t Nuclear energy can be safely transported through cart and railways also, there has never been a report of radiation leak due to transportation of Nuclear waste.</item>
-    <item>7.\tRadiation is the same whether it is made in nature or made by humans. There is no difference in what occurs as a result of exposure to natural versus human-made radiation.</item>
+        <item>1.\tIn truth we are surrounded by naturally occurring radiation. Radiation arising from human activities typically accounts for up to 20%% of the public\'s exposure every year as global average. Naturally occurring radiation sums up to 82%% of the total radiation received by a Human.</item>
+        <item>2.\tThis is practically impossible because highly enriched nuclear substances are kept in specific ratios in a nuclear bomb neither of which is present in a nuclear reactor.</item>
+        <item>3.\tNuclear reactors are one of the cleanest sources of energy. It does not emit any byproduct gases or any carbon. Interestingly 63.3%% of the total non-renewable energy produced was obtained through nuclear power plants.</item>
+        <item>4.\tNuclear fuel can be recycled to make new fuel and byproducts. Most of the waste from this process require a time of storage of less than 300 years.</item>
+        <item>5.\tNuclear energy is the safest form of energy. In India there has been no injuries or deaths in the entire history of commercial Nuclear power. Infact a stusy proves that it is safer to work in a nuclear reactor than in office</item>
+        <item>6.\t Nuclear energy can be safely transported through cart and railways also, there has never been a report of radiation leak due to transportation of Nuclear waste.</item>
+        <item>7.\tRadiation is the same whether it is made in nature or made by humans. There is no difference in what occurs as a result of exposure to natural versus human-made radiation.</item>
     <item>8.\t Actually this statement and \“irradiation of food creates harmful chemicals in the food\” are the most common arguments against food irradiation. The truth is, the food does not become radioactive and there is no scientific evidence that harmful chemicals are formed.
         The reason most people think food irradiation is best for our food is because there have been so many food-borne illnesses and deaths that irradiation could prevent (killing the bacteria that is in food and causes you to get sick). According to the Centers for Disease Control and Prevention, if only 50 percent of our food was irradiated, nearly one million cases of bacterial infections could be avoided and 350 lives saved each year.</item>
     <item>9.\t A whole-body CT scan alone will not confirm the presence or absence of cancer, as the headline suggests. Nonetheless, this headline is interesting in that, even though some people prefer not to have additional radiation exposure, many came to doctor\’s offices and hospitals to have a whole-body CT scan performed. In addition, many free-standing medical clinics with CT units were built to handle the demand for the scans.
         A whole-body CT scan is a CT scan of the abdomen, a CT scan of the chest, and a CT scan of the pelvis. If you are feeling sick or have a family history of a certain disease that can be detected with a CT scan, then perhaps one of these three should be performed. That is a conversation you need to have with a doctor.
         It would be nice if we could have one simple test done to find out what is wrong if we are sick. Current technology cannot do that yet. That is why exams involving radiation exposure should only be performed when there is a medical reason. They must be prescribed by a doctor either because you’re sick or injured, or because your family history suggests you would benefit from what you will learn from them.</item>
-    <item>10.\t Nuclear-generated electricity powers electric trains and subway cars as well as autos today.  It has also been used in propelling ships for more than 50 years. That use can be increased since it has been restricted by unofficial policy to military vessels and ice breakers.  In the near-term, nuclear power can provide electricity for expanded mass-transit and plug-in hybrid cars.  Small modular reactors can provide power to islands like Hawaii, Puerto Rico, Nantucket and Guam that currently run their electrical grids on imported oil.  In the longer-term, nuclear power can directly reduce our dependence on foreign oil by producing hydrogen for use in fuel cells and synthetic liquid fuels.</item>
+        <item>10.\t Nuclear-generated electricity powers electric trains and subway cars as well as autos today.  It has also been used in propelling ships for more than 50 years. That use can be increased since it has been restricted by unofficial policy to military vessels and ice breakers.  In the near-term, nuclear power can provide electricity for expanded mass-transit and plug-in hybrid cars.  Small modular reactors can provide power to islands like Hawaii, Puerto Rico, Nantucket and Guam that currently run their electrical grids on imported oil.  In the longer-term, nuclear power can directly reduce our dependence on foreign oil by producing hydrogen for use in fuel cells and synthetic liquid fuels.</item>
     </string-array>
 
     <string-array name="accident_headers">
-    <item>Chernobyl Disaster, Ukrainian SSR. April 26, 1986</item>
-    <item>Fukushima, Japan. March 12, 2011</item>
-    <item>Three Mile Island, Pennsylvania. USA. March 28,1979</item>
-    <item>Lucens reactor, Vaud, Switzerland. January 21, 1969</item>
-    <item>Idhao Falls, Idaho, USA</item>
+        <item>Chernobyl Disaster, Ukrainian SSR. April 26, 1986</item>
+        <item>Fukushima, Japan. March 12, 2011</item>
+        <item>Three Mile Island, Pennsylvania. USA. March 28,1979</item>
+        <item>Lucens reactor, Vaud, Switzerland. January 21, 1969</item>
+        <item>Idhao Falls, Idaho, USA</item>
     </string-array>
 
     <string-array name="accident">
-    <item>1.\tChernobyl Disaster is regarded as the worst Nuclear accident in the history of Nuclear Power plants. It was attributed to overheating of the reactor core following an explosion and fire. The meltdown of the nuclear core followed next. More than 300,000 people from Chernobyl were evacuated and The radioactive discharge of material was seen which dispersed all along Europe. Thirty direct and a total of 34 indirect loss of life was observed(as of 2008) also there was a loss of 6,700 million US Dollars.</item>
-    <item>2.\tThe major reason was a massive Tsunami which flooded and damaged the five active reactor plants. Loss of backup power lead to overheating and meltdown of reactor core. This was followed by evacuation of the area. It was one of the only two nuclear accidents that were termed as of level 7 INES. A total of three people died during this accident</item>
-    <item>3.\t Loss of coolant and partial core meltdown due to operator errors were the cause that lead to this accident. This was followed by a release of small amount of radioactive gases. No loss of life.</item>
-    <item>4.\tA loss of coolant resulted in the accident. Leading to a partial core meltdown and massive radioactive contamination of the cavern, which was sealed for any further use. No loss of lives.</item>
-    <item>5.\t The direct cause was the improper withdrawal of the central control rod, responsible for absorbing neutrons in the reactor core. The event is the only reactor incident in the United States which resulted in immediate fatalitie. The incident released about 80 curies (3.0 TBq) of iodine-131  which was not considered significant due to its location in the remote high desert of eastern Idaho. A total of three opearators were killed.</item>
+        <item>1.\tChernobyl Disaster is regarded as the worst Nuclear accident in the history of Nuclear Power plants. It was attributed to overheating of the reactor core following an explosion and fire. The meltdown of the nuclear core followed next. More than 300,000 people from Chernobyl were evacuated and The radioactive discharge of material was seen which dispersed all along Europe. Thirty direct and a total of 34 indirect loss of life was observed(as of 2008) also there was a loss of 6,700 million US Dollars.</item>
+        <item>2.\tThe major reason was a massive Tsunami which flooded and damaged the five active reactor plants. Loss of backup power lead to overheating and meltdown of reactor core. This was followed by evacuation of the area. It was one of the only two nuclear accidents that were termed as of level 7 INES. A total of three people died during this accident</item>
+        <item>3.\t Loss of coolant and partial core meltdown due to operator errors were the cause that lead to this accident. This was followed by a release of small amount of radioactive gases. No loss of life.</item>
+        <item>4.\tA loss of coolant resulted in the accident. Leading to a partial core meltdown and massive radioactive contamination of the cavern, which was sealed for any further use. No loss of lives.</item>
+        <item>5.\t The direct cause was the improper withdrawal of the central control rod, responsible for absorbing neutrons in the reactor core. The event is the only reactor incident in the United States which resulted in immediate fatalitie. The incident released about 80 curies (3.0 TBq) of iodine-131  which was not considered significant due to its location in the remote high desert of eastern Idaho. A total of three opearators were killed.</item>
     </string-array>
+    <string name="title_activity_result">ResultActivity</string>
 
 </resources>

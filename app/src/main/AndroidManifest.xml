@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.appbusters.robinkamboj.radiationdosagecalculator.view.WelcomeActivity"
+            android:name=".view.WelcomeActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,12 +22,12 @@
         <activity
             android:name=".view.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".view.CalculateActivity"
             android:label="@string/title_activity_calculate"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".view.MainActivity">
+            android:parentActivityName=".view.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
@@ -37,8 +37,8 @@
         <activity
             android:name=".view.MoreActivity"
             android:label="@string/title_activity_more"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".view.MainActivity">
+            android:parentActivityName=".view.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
@@ -48,8 +48,8 @@
         <activity
             android:name=".view.MythActivity"
             android:label="@string/title_activity_myth"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".view.MainActivity">
+            android:parentActivityName=".view.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
@@ -59,8 +59,8 @@
         <activity
             android:name=".view.AccidentsActivity"
             android:label="@string/title_activity_accidents"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".view.MainActivity">
+            android:parentActivityName=".view.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
@@ -70,14 +70,18 @@
         <activity
             android:name=".view.NuclearPlantsActivity"
             android:label="@string/title_activity_nuclear_plants"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".view.MainActivity">
+            android:parentActivityName=".view.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".view.MainActivity" />
         </activity>
+        <activity
+            android:name=".view.ResultActivity"
+            android:label="@string/title_activity_result"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

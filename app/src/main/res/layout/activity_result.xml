@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:id="@+id/coordinatorLayout"
-    tools:context="com.appbusters.robinkamboj.radiationdosagecalculator.view.CalculateActivity">
+    tools:context="com.appbusters.robinkamboj.radiationdosagecalculator.view.ResultActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -22,19 +21,16 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_calculate"
-        android:id="@+id/include" />
+    <include layout="@layout/content_result" />
 
     <Button
-        android:text="Calculate Annual Dose"
-        android:textColor="#FFF"
+        android:text="YOU LIVE IN A RADIATION-SAFE"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:id="@+id/calculate_dose"
-        app:layout_anchor="@+id/include"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:id="@+id/button3"
         app:layout_anchorGravity="bottom|center_horizontal"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:background="@drawable/card_background"
-        android:onClick="onClick"/>
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="#69F0AE"/>
 
 </android.support.design.widget.CoordinatorLayout>
