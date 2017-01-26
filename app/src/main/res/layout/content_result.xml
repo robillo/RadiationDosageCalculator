@@ -11,16 +11,13 @@
     tools:showIn="@layout/activity_result">
 
     <com.androidplot.xy.XYPlot
-        android:layout_marginTop="3sp"
-        style="@style/APDefacto.Light"
+        style="@style/APDefacto.Dark"
         android:id="@+id/plot"
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
         app:title="Radiation"
-        app:gridInsetLeft="35dp"
-        app:gridInsetRight="10dp"
         app:gridClippingEnabled="false"
-        android:layout_marginBottom="?attr/actionBarSize"/>
+        android:layout_marginTop="?attr/actionBarSize"/>
 
     <LinearLayout
         android:layout_height="wrap_content"

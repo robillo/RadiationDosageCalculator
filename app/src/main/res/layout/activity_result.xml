@@ -26,9 +26,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="?attr/actionBarSize"
         android:orientation="horizontal"
-        app:layout_anchorGravity="bottom|center_horizontal"
-        android:layout_gravity="bottom|center_horizontal"
+        android:layout_gravity="top|center_horizontal"
         android:background="#69F0AE">
 
         <ImageView
@@ -38,8 +38,7 @@
             android:padding="7sp"/>
         <TextView
             android:text="Congratulations! You Live In A Radiation-Safe Zone."
-            android:paddingTop="5sp"
-            android:paddingBottom="5dp"
+            android:padding="5sp"
             android:gravity="center"
             android:textSize="14sp"
             android:layout_gravity="center"
@@ -50,7 +49,6 @@
             android:id="@+id/button3"/>
 
     </LinearLayout>
-
 
 
 </android.support.design.widget.CoordinatorLayout>
