@@ -14,12 +14,20 @@ import com.appbusters.robinkamboj.radiationdosagecalculator.R;
 
 public class MythActivity extends AppCompatActivity {
 
+    String[] myth_headers;      //for RV headings
+    String[] myths;             //for RV details
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_myth);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        //myths
+        myth_headers = getResources().getStringArray(R.array.myths_headers);
+        myths = getResources().getStringArray(R.array.myths);
+        //use these like myths[0], myths[1], ...
 
         setupActionBar();
     }

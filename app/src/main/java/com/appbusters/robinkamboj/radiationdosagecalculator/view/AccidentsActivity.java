@@ -14,12 +14,21 @@ import com.appbusters.robinkamboj.radiationdosagecalculator.R;
 
 public class AccidentsActivity extends AppCompatActivity {
 
+    String[] accident_headers;      //for RV headings
+    String[] accidents;             //for RV details
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accidents);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
+        //myths
+        accident_headers = getResources().getStringArray(R.array.accident_headers);
+        accidents = getResources().getStringArray(R.array.accident);
+        //use these like accidents[0], accidents[1], ...
 
         setupActionBar();
     }
