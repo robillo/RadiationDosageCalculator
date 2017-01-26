@@ -26,6 +26,8 @@ public class MythActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
+
         //myths
 //        myth_headers = getResources().getStringArray(R.array.myths_headers);
 //        myths = getResources().getStringArray(R.array.myths);

@@ -9,6 +9,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -28,6 +29,7 @@ import com.appbusters.robinkamboj.radiationdosagecalculator.view.slides.SlideFra
 public class MainActivity extends AppCompatActivity {
 
 
+    private static final String TAG = "MA";
     private LinearLayout dotsLayout;
     private TextView[] dots;
     private int[] layouts;
@@ -48,12 +50,19 @@ public class MainActivity extends AppCompatActivity {
      */
     private PagerAdapter mPagerAdapter;
 
+    int fragType = 0;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        if(savedInstanceState!=null){
+            fragType = savedInstanceState.getInt("fragType", fragType);
+        }
+
 
         /*
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -89,6 +98,13 @@ public class MainActivity extends AppCompatActivity {
         mPager.setPageTransformer(true, new ZoomOutPageTransformer());
         mPager.addOnPageChangeListener(viewPagerPageChangeListener);
     }
+    @Override
+    protected void onSaveInstanceState(Bundle outState) { // to prevent the app restart on screen rotation
+
+        outState.putInt("fragType",fragType);
+
+        super.onSaveInstanceState(outState);
+    }
 
     private void addBottomDots(int currentPage) {
         dots = new TextView[layouts.length];
@@ -117,6 +133,8 @@ public class MainActivity extends AppCompatActivity {
             // Back button. This calls finish() on this activity and pops the back stack.
             super.onBackPressed();
         } else {
+            Log.d(TAG, "onBackPressed: "+mPagerAdapter.getItemPosition(this));
+
             // Otherwise, select the previous step.
             mPager.setCurrentItem(mPager.getCurrentItem() - 1);
         }
