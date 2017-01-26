@@ -28,6 +28,16 @@
                 android:textColor="#FFF"
                 android:background="@color/colorPrimary"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Natural Radiation Sources Common for Most Places."
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:padding="5sp"
+                android:textColor="#FFF"
+                android:background="@color/colorPrimaryDark"/>
+
             <Switch
                 xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
@@ -70,6 +80,16 @@
                 android:padding="5sp"
                 android:textColor="#FFF"
                 android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All Potential Man-Made sources emitting Appreciable Radiation."
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:padding="5sp"
+                android:textColor="#FFF"
+                android:background="@color/colorPrimaryDark"/>
 
             <Switch
                 xmlns:android="http://schemas.android.com/apk/res/android"
