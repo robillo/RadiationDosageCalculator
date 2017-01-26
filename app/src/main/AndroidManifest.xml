@@ -23,11 +23,26 @@
             android:name=".view.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".view.CalculateActivity" />
-        <activity android:name=".view.MythActivity" />
-        <activity android:name=".view.PrecautionsActivity" />
-        <activity android:name=".view.RecoveryActivity" />
-        <activity android:name=".view.MoreActivity"></activity>
+        <activity
+            android:name=".view.CalculateActivity"
+            android:label="@string/title_activity_calculate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.MoreActivity"
+            android:label="@string/title_activity_more"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.MythActivity"
+            android:label="@string/title_activity_myth"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.AccidentsActivity"
+            android:label="@string/title_activity_accidents"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.NuclearPlantsActivity"
+            android:label="@string/title_activity_nuclear_plants"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

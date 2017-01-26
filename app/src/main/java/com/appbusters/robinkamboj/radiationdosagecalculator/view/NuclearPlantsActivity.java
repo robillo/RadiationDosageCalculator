@@ -9,12 +9,12 @@ import android.view.View;
 
 import com.appbusters.robinkamboj.radiationdosagecalculator.R;
 
-public class CalculateActivity extends AppCompatActivity {
+public class NuclearPlantsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculate);
+        setContentView(R.layout.activity_nuclear_plants);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

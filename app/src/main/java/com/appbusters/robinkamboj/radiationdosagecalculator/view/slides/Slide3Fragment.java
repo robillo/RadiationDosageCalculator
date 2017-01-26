@@ -11,8 +11,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.appbusters.robinkamboj.radiationdosagecalculator.R;
-import com.appbusters.robinkamboj.radiationdosagecalculator.view.CalculateActivity;
-import com.appbusters.robinkamboj.radiationdosagecalculator.view.PrecautionsActivity;
+import com.appbusters.robinkamboj.radiationdosagecalculator.view.AccidentsActivity;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
@@ -48,7 +47,7 @@ public class Slide3Fragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getActivity(), PrecautionsActivity.class);
+                Intent i = new Intent(getActivity(), AccidentsActivity.class);
                 startActivity(i);
             }
         });
