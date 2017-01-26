@@ -38,7 +38,7 @@ public class Slide5Fragment extends Fragment {
         button = (Button) v.findViewById(R.id.more);
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
         Glide.with(getContext())
-                .load("http://www.walldevil.com/wallpapers/a54/radiation-creature-mask.jpg")
+                .load("https://2.bp.blogspot.com/-WRX6ve0MElM/WIo5bgJHUwI/AAAAAAAAAEE/MyQEbOh2Rho7PMHck98bFfoa9fCZ83qvQCLcB/s1600/1.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .crossFade()
                 .centerCrop()

@@ -38,7 +38,7 @@ public class Slide2Fragment extends Fragment {
         button = (Button) v.findViewById(R.id.myths);
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
         Glide.with(getActivity())
-                .load("http://wallpapercave.com/wp/Ai75Vfz.jpg")
+                .load("https://1.bp.blogspot.com/-fFIRzYUgPCo/WIo5b5mn3HI/AAAAAAAAAEI/NkNQUJ4yRNoVKZAAO5uhRNHwZq7Hz8hrQCLcB/s1600/4.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .crossFade()
                 .centerCrop()

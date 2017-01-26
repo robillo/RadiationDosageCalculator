@@ -38,7 +38,7 @@ public class Slide3Fragment extends Fragment {
         button = (Button) v.findViewById(R.id.precautions);
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
         Glide.with(getActivity().getApplicationContext())
-                .load("http://img08.deviantart.net/1648/i/2014/006/e/9/radiation_wallpaper_by_mkovic-d7165ms.png")
+                .load("https://4.bp.blogspot.com/-PQ2dFPxs6dA/WIo5arONKII/AAAAAAAAAD8/_KPNyZuSY0IOhtZf7h2ByJWd7xvWZMjZgCLcB/s1600/3.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .crossFade()
                 .centerCrop()

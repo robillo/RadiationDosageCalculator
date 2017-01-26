@@ -40,7 +40,7 @@ public class SlideFragment extends Fragment {
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
 
         Glide.with(this)
-                .load("http://wallpapercave.com/wp/e1jWmMP.png")
+                .load("https://3.bp.blogspot.com/-7Fbv9Mcj8Ho/WIo5cjN-EOI/AAAAAAAAAEM/CtwvYPu184goLOWknhMyxSg8eQX55EaCACLcB/s1600/5.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .crossFade()
                 .centerCrop()

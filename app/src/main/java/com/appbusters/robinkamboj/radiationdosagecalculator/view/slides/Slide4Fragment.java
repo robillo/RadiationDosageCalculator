@@ -39,7 +39,7 @@ public class Slide4Fragment extends Fragment {
         button = (Button) v.findViewById(R.id.recovery);
         imageView1 = (ImageView) v.findViewById(R.id.imageView1);
         Glide.with(getActivity())
-                .load("http://www.healthywealthywonderful.com/wp-content/uploads/2014/12/HWW-Slide6.jpg")
+                .load("https://3.bp.blogspot.com/-zxKR05xW73M/WIo5bQl4eDI/AAAAAAAAAEA/_NvyrWRMCG0s4kMG14svcuJhQswoVm22QCLcB/s1600/2.jpg")
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .crossFade()
                 .centerCrop()
