@@ -34,26 +34,289 @@
                 android:layout_height="wrap_content"
                 android:text="Radon-200mrem"
                 android:textSize="16dip"
-                android:layout_marginLeft="4sp" />
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
             <Switch
                 xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Terrestrial-25mrem"
                 android:textSize="16dip"
-                android:layout_marginLeft="4sp" />
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
             <Switch
                 xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Cosmic-25mrem"
                 android:textSize="16dip"
-                android:layout_marginLeft="4sp" />
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
             <Switch
                 xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Food and Water-15mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MAN-MADE SOURCES"
+                android:gravity="center"
+                android:padding="5sp"
+                android:textColor="#FFF"
+                android:background="@color/colorPrimary"/>
+
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Live within 50 Miles of Nuclear Reactor-0.001 mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Live within 50 miles of a coal powered electricity plant-0.03mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="False Teeth or Porcelain Teeth-0.07 mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Travel By Plane-0.5mrem/hr"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="LCD lit Wrisrtwatch-0.006mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Weapon Test-1mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Gas Lantern-0.003mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Metal Detectors(X-Ray security systems)-0.002mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Tv-less than 1mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
+
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Weapon Test-1mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Gas Lantern-0.003mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Metal Detectors(X-Ray security systems)-0.002mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Tv-less than 1mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Building Or road construction materials-7mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Combustible fuels, including gas and coal-9mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Cell Phones-0.5rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp"
+                android:checked="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MEDICINAL SOURCES"
+                android:gravity="center"
+                android:padding="5sp"
+                android:textColor="#FFF"
+                android:background="@color/colorPrimary"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Any of the following X-Ray Treatment(s):"
+                android:gravity="center"
+                android:padding="5sp"
+                android:textColor="#FFF"
+                android:background="@color/colorPrimaryDark"/>
+
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Skull-0.01rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Chest-0.01rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Dental-0.01rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Spine-0.1rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Abdominal-0.1rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Pelvic-0.1rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Hip-0.1rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mammograph-0.1rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Head CT Scan-0.5rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Any nuclear medicine for brain, liver, kidney-0.5rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Lung Scan-0.5rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Chest, Abdomen, Pelvic CT scan-1rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Cardiac Catheterzation(Heart X-Ray)- 5rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Coronary Angiogram(Heart X-Ray)- 5rem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Any other X-Ray- 5rem"
                 android:textSize="16dip"
                 android:layout_marginLeft="4sp" />
 
