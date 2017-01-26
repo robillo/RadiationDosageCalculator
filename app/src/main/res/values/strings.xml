@@ -15,14 +15,14 @@
     <string name="slide_2_title">Myth Busters</string>
     <string name="slide_2_desc">For broadening of your mind with factual truths, not myths!</string>
 
-    <string name="slide_3_title">Precautions</string>
-    <string name="slide_3_desc">To obstruct, minimise, or kill the ill-effects of radiations.</string>
+    <string name="slide_3_title">Accidents</string>
+    <string name="slide_3_desc">To broaden your knowledge of past nuclear leaks, accidents, their effects and consequences.</string>
 
-    <string name="slide_4_title">Got Exposed?</string>
-    <string name="slide_4_desc">See your recovery options.</string>
+    <string name="slide_4_title">Nuclear Power Plants</string>
+    <string name="slide_4_desc">Know more about nuclear power plants, its radiation extent both inside and outside such plants.</string>
 
-    <string name="slide_5_title">More</string>
-    <string name="slide_5_desc">The context of the app not enough for you? Here\'s more!</string>
+    <string name="slide_5_title">News Feed</string>
+    <string name="slide_5_desc">Stay Updated with the world-wide happenings on Nuclear Radiation.</string>
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
@@ -35,10 +35,10 @@
     <string name="slide_3_button">Look-Out Here!</string>
     <string name="slide_2_button">Click To Discover</string>
     <string name="slide_1_button">Calculate Yours</string>
-    <string name="title_activity_calculate">CalculateActivity</string>
-    <string name="title_activity_more">MoreActivity</string>
+    <string name="title_activity_calculate">Calculate Annual Radiation Dose</string>
+    <string name="title_activity_more">News Feed</string>
     <string name="title_activity_precautions">PrecautionsActivity</string>
-    <string name="title_activity_myth">MythActivity</string>
-    <string name="title_activity_accidents">AccidentsActivity</string>
-    <string name="title_activity_nuclear_plants">NuclearPlantsActivity</string>
+    <string name="title_activity_myth">Myth Busters</string>
+    <string name="title_activity_accidents">Past Accidents</string>
+    <string name="title_activity_nuclear_plants">Nuclear Power Plants</string>
 </resources>
