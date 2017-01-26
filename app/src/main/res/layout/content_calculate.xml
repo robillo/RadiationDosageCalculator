@@ -17,16 +17,45 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="3sp"
-            android:layout_marginRight="3sp">
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NATURAL SOURCES"
+                android:gravity="center"
+                android:padding="5sp"
+                android:textColor="#FFF"
+                android:background="@color/colorPrimary"/>
 
             <Switch
                 xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Pop up a message when new data available"
-                android:textSize="16dip" />
+                android:text="Radon-200mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Terrestrial-25mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Cosmic-25mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
+            <Switch
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Food and Water-15mrem"
+                android:textSize="16dip"
+                android:layout_marginLeft="4sp" />
 
         </LinearLayout>
 
