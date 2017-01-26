@@ -35,7 +35,7 @@
     <string name="slide_3_button">Look-Out Here!</string>
     <string name="slide_2_button">Click To Discover</string>
     <string name="slide_1_button">Calculate Yours</string>
-    <string name="title_activity_calculate">Calculate Annual Radiation Dose</string>
+    <string name="title_activity_calculate">Calculate</string>
     <string name="title_activity_more">News Feed</string>
     <string name="title_activity_precautions">PrecautionsActivity</string>
     <string name="title_activity_myth">Myth Busters</string>
