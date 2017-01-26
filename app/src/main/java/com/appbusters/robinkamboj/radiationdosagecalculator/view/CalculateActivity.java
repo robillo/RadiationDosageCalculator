@@ -1,6 +1,7 @@
 package com.appbusters.robinkamboj.radiationdosagecalculator.view;
 
 import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBar;
@@ -14,6 +15,8 @@ import com.appbusters.robinkamboj.radiationdosagecalculator.R;
 
 public class CalculateActivity extends AppCompatActivity {
 
+    CoordinatorLayout coordinatorLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +24,15 @@ public class CalculateActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        coordinatorLayout = (CoordinatorLayout) findViewById(R.id.coordinatorLayout);
+        Snackbar snackbar = Snackbar.make(coordinatorLayout, "Note: i am goood!!", Snackbar.LENGTH_INDEFINITE)
+                .setAction("Okay", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //doNothing
+                    }
+                });
+        snackbar.show();
         setupActionBar();
     }
 
