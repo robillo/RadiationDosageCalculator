@@ -25,7 +25,7 @@ public class CalculateActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         coordinatorLayout = (CoordinatorLayout) findViewById(R.id.coordinatorLayout);
-        Snackbar snackbar = Snackbar.make(coordinatorLayout, "Note: Pre-checked values are recommended to be kept ON for best results.", Snackbar.LENGTH_INDEFINITE)
+        Snackbar snackbar = Snackbar.make(coordinatorLayout, "Pre-checked values are recommended to be kept ON for best results.", Snackbar.LENGTH_INDEFINITE)
                 .setAction("Okay", new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
