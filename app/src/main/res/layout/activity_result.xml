@@ -36,6 +36,9 @@
             android:layout_height="?attr/actionBarSize"
             android:src="@drawable/smiletwo"
             android:padding="7sp"/>
+
+
+
         <TextView
             android:text="Congratulations! You Live In A Radiation-Safe Zone."
             android:padding="5sp"
