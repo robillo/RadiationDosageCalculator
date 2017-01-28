@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
             fragType = savedInstanceState.getInt("fragType", fragType);
         }
 
+        this.getFragmentManager().popBackStack();
 
         /*
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
